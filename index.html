@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>JS Flower Animation</title>
+  </head>
+  <body>
+    <div class="container" id="contianer">
+      <canvas id="canvas1" class="canvas1"></canvas>
+      <div>
+        <p>Scale Value: <span id="ShowScaleValue"></span></p>
+        <input
+          type="range"
+          min="0"
+          max="10"
+          value="0"
+          class="slider"
+          id="slider"
+        />
+      </div>
+      <div>
+        <p>Index Value: <span id="ShowIndexValue"></span></p>
+
+        <input
+          type="range"
+          min="0"
+          max="200"
+          value="0"
+          class="slider1"
+          id="index"
+        />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
